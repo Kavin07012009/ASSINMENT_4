@@ -1,0 +1,8 @@
+register,name,department,email,events
+192311001,Asha,Arts,asha@example.org,Dance;Music;Photography
+192311002,Ben,Arts,ben@school.edu,Drama
+192311003,Cara,Science,cara@example.org,Dance;Robotics
+192311005,Eli,Science,eli@example.org,Robotics
+192311006,Fatima,Commerce,fatima@example.org,Drama;Music
+192311007,Gopal,Engineering,gopal@example.org,Photography;Robotics
+192311008,Hana,Engineering,hana@example.org,Dance

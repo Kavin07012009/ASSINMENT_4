@@ -1,0 +1,4 @@
+filename,line_number,reason
+Science.csv,2,invalid email 'not-an-email'
+Commerce.csv,2,"expected register,name,department,email,events"
+Management.csv,0,FileNotFoundError: [Errno 2] No such file or directory: '/Users/kavinsandron/Documents/Codex/2026-11-13/complete-me-the-assingment-and-give/CO4/Task6/input/Management.csv'

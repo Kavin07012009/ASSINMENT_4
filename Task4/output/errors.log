@@ -1,0 +1,2 @@
+missing input /Users/kavinsandron/Documents/Codex/2026-11-13/complete-me-the-assingment-and-give/CO4/Task4/input/missing.txt: [Errno 2] No such file or directory: '/Users/kavinsandron/Documents/Codex/2026-11-13/complete-me-the-assingment-and-give/CO4/Task4/input/missing.txt'
+write failure: TypeError: unsupported operand type(s) for +: 'object' and 'str'

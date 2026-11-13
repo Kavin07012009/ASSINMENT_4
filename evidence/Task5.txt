@@ -1,0 +1,5 @@
+one script students/streaks: 3 ['192311001']
+one module students/streaks: 3 ['192311001']
+three modules students/streaks: 3 ['192311001']
+package attendance students/streaks: 3 ['192311001']
+import forms and percentage: True 75.0

@@ -1,0 +1,6 @@
+unique registrations: 7
+Dance: 3
+Drama: 2
+Music: 2
+Photography: 2
+Robotics: 3

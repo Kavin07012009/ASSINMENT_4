@@ -1,0 +1,50 @@
+unique: 7 duplicates merged: 1
+events: {'Dance': 3, 'Drama': 2, 'Music': 2, 'Photography': 2, 'Robotics': 3}
+errors: [('Science.csv', 2, "invalid email 'not-an-email'"), ('Commerce.csv', 2, 'expected register,name,department,email,events'), ('Management.csv', 0, "FileNotFoundError: [Errno 2] No such file or directory: '/Users/kavinsandron/Documents/Codex/2026-11-13/complete-me-the-assingment-and-give/CO4/Task6/input/Management.csv'")]
+--- errors.csv ---
+filename,line_number,reason
+Science.csv,2,invalid email 'not-an-email'
+Commerce.csv,2,"expected register,name,department,email,events"
+Management.csv,0,FileNotFoundError: [Errno 2] No such file or directory: '/Users/kavinsandron/Documents/Codex/2026-11-13/complete-me-the-assingment-and-give/CO4/Task6/input/Management.csv'
+--- event_dance.csv ---
+register,name,department,email
+192311001,Asha,Arts,asha@example.org
+192311003,Cara,Science,cara@example.org
+192311008,Hana,Engineering,hana@example.org
+--- event_drama.csv ---
+register,name,department,email
+192311002,Ben,Arts,ben@school.edu
+192311006,Fatima,Commerce,fatima@example.org
+--- event_music.csv ---
+register,name,department,email
+192311001,Asha,Arts,asha@example.org
+192311006,Fatima,Commerce,fatima@example.org
+--- event_photography.csv ---
+register,name,department,email
+192311001,Asha,Arts,asha@example.org
+192311007,Gopal,Engineering,gopal@example.org
+--- event_robotics.csv ---
+register,name,department,email
+192311003,Cara,Science,cara@example.org
+192311005,Eli,Science,eli@example.org
+192311007,Gopal,Engineering,gopal@example.org
+--- master.csv ---
+register,name,department,email,events
+192311001,Asha,Arts,asha@example.org,Dance;Music;Photography
+192311002,Ben,Arts,ben@school.edu,Drama
+192311003,Cara,Science,cara@example.org,Dance;Robotics
+192311005,Eli,Science,eli@example.org,Robotics
+192311006,Fatima,Commerce,fatima@example.org,Drama;Music
+192311007,Gopal,Engineering,gopal@example.org,Photography;Robotics
+192311008,Hana,Engineering,hana@example.org,Dance
+--- summary.txt ---
+unique registrations: 7
+Dance: 3
+Drama: 2
+Music: 2
+Photography: 2
+Robotics: 3
+records,set_s,list_scan_s,comparisons,list_projection_s
+1000,0.000029,0.004697,499500,0.0047
+100000,0.003540,not_run,4999950000,47.0
+100000 list scan is projected from the 1000-record measurement; not directly run.

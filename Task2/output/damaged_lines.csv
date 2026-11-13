@@ -1,0 +1,3 @@
+filename,line_number,reason
+day1.csv,3,malformed attendance record
+day2.csv,3,malformed attendance record

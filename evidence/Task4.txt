@@ -1,0 +1,8 @@
+Defective log (overwritten and concatenated): 'The Odyssey'
+Defective write failure was not logged: TypeError error log exists: False
+Repaired log:
+The Hobbit
+Dune
+Emma
+The Odyssey
+write error logged: write failure: TypeError: unsupported operand type(s) for +: 'object' and 'str'

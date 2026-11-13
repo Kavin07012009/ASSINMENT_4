@@ -1,0 +1,2 @@
+line 3: invalid non-negative amount: 192311003,Chitra,damaged
+line 5: expected register,name,amount: 192311004,Devi,750.25,extra

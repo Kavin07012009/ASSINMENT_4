@@ -1,0 +1,12 @@
+Students: 2 damaged lines: 2
+--- attendance_percentages.csv ---
+register,present,absent,percentage
+192311001,2,0,100.00
+192311002,1,1,50.00
+--- below_75.csv ---
+register,percentage
+192311002,50.00
+--- damaged_lines.csv ---
+filename,line_number,reason
+day1.csv,3,malformed attendance record
+day2.csv,3,malformed attendance record
